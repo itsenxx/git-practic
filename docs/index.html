@@ -4,71 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./stylesheet.css">
     <style>
-        .help1 {text-indent: 100px;}
-        .help2 {text-indent: 50px; color: red;}
-        .help3 {color: black;}
-        .point {text-indent: 25px;}
-        
-    </style>
+        h1 {text-align: center; padding-top: 30%; padding-bottom: 30%;}
+        ul { position:fixed; border-bottom: 1px solid lightgray; width: 1920px;}
+        .logo {list-style: none; float:inline-start;  padding: 15px 20px 20px 60px; }
+        .menu { list-style: none;  float:inline-start; 
+                padding: 25px 13px 0px 0px;
+                font-family:fantasy; text-align: center;
+                }
+        a {color:black; text-decoration-line: none;}
+        </style>
 </head>
+
 <body>
-    
-    <h2>git --help</h2>
+    <header>
+      <nav>
+        <ul>
+            <li class="logo"><img src="https://heropcode.github.io/GitHub-Responsive/img/logo.svg"></li>
+            <li class="menu"><a href="./index2.html">Personal</a></li>
+            <li class="menu"><a href="./index2.html">Open Source</a></li>
+            <li class="menu"><a href="./index2.html">Business</a></li>
+            <li class="menu"><a href="./index2.html">Explore</a></li>
+        </ul>
+    </nav>  
+    </header>
 
-    <p class="point">usage: git [-v | --version] [-h | --help] [-C &lt;path&gt;] [-c &lt;name&gt;=&lt;value&gt;] </p>
-             <p class="help1">                 [--exec-path[=&lt;path&gt;]] [--html-path] [--man-path] [--info-path] </p>
-             <p class="help1">   [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare] </p>
-             <p class="help1">   [--git-dir=&lt;path&gt;] [--work-tree=&lt;path&gt;] [--namespace=&lt;name&gt;] </p>
-             <p class="help1">   [--config-env=&lt;name&gt;=&lt;envvar&gt;] &lt;command&gt; [&lt;args&gt;] </p>
+    <div>
+        <h1>메인 페이지입니다.</h1>
+    </div>
     
-    <br>
-    <p>These are common Git commands used in various situations: </p>
-    <br>
-    
-    <p>start a working area (see also: git help tutorial)</p>
-    <p class="help2"> clone <span class="help3">Clone a repository into a new directory </span> </p>
-    <p class="help2"> init  <span class="help3">Create an empty Git repository or reinitialize an existing one </span> </p>
-    <br>
-    
-    <p>work on the current change (see also: git help everyday)</p>
-    <p class="help2">add <span class="help3">  Add file contents to the index</span> </p>
-    <p class="help2">mv <span class="help3">  Move or rename a file, a directory, or a symlink</span> </p>
-    <p class="help2">restore <span class="help3"> Restore working tree files </span> </p>
-    <p class="help2">rm <span class="help3"> Remove files from the working tree and from the index </span> </p>
-    <br>
-
-    <p>examine the history and state (see also: git help revisions) </p>
-    <p class="help2">bisect <span class="help3">    Use binary search to find the commit that introduced a bug </span> </p>
-    <p class="help2">diff   <span class="help3">    Show changes between commits, commit and working tree, etc </span> </p>
-    <p class="help2">   grep  <span class="help3">     Print lines matching a pattern </span> </p>
-    <p class="help2">   log   <span class="help3">     Show commit logs </span> </p>
-    <p class="help2">   show  <span class="help3">     Show various types of objects </span> </p>
-    <p class="help2">status  <span class="help3">    Show the working tree status </span> </p>
-    <br>
-
-    <p>grow, mark and tweak your common history</p>
-    <p class="help2">   branch  <span class="help3">  List, create, or delete branches </span> </p>
-    <p class="help2">   commit  <span class="help3">  Record changes to the repository </span> </p>
-    <p class="help2">   merge   <span class="help3"> Join two or more development histories together </span> </p>
-    <p class="help2">   rebase  <span class="help3"> Reapply commits on top of another base tip </span> </p>
-    <p class="help2">   reset   <span class="help3"> Reset current HEAD to the specified state </span> </p>
-    <p class="help2">   switch  <span class="help3"> Switch branches </span> </p>
-    <p class="help2">   tag     <span class="help3"> Create, list, delete or verify a tag object signed with GPG </span> </p>
-    <br>
-
-    <p>collaborate (see also: git help workflows) </p>
-    <p class="help2"> fetch <span class="help3">  Download objects and refs from another repository </span> </p>
-    <p class="help2"> pull  <span class="help3">  Fetch from and integrate with another repository or a local branch </span> </p>
-    <p class="help2"> push  <span class="help3">  Update remote refs along with associated objects </span> </p>
-    <br>
-    
-    <p>'git help -a' and 'git help -g' list available subcommands and some concept guides. </p>
-    <p>See 'git help &lt;command&gt;' or 'git help &lt;concept&gt;' to read about a specific subcommand or concept. </p>
-    <p>See 'git help git' for an overview of the system. </p>
-    한줄 추가
-    
-
 </body>
 </html>
